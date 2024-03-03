@@ -106,7 +106,7 @@ export default function Home() {
                   aria-label="Social Media"
                 >
                   <li>
-                    <a href="#">
+                    <a href="https://github.com/urz14x" target="_blank">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 16 16"
@@ -119,7 +119,10 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="">
+                    <a
+                      href="https://www.instagram.com/ustami_razib45/"
+                      target="_blank"
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 1000 1000"
@@ -132,7 +135,10 @@ export default function Home() {
                     </a>
                   </li>
                   <li>
-                    <a href="">
+                    <a
+                      href="https://www.linkedin.com/in/ustami-rajib/"
+                      target="_blank"
+                    >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
