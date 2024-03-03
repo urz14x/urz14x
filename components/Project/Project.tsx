@@ -7,8 +7,8 @@ export default function Project({ id }: { id: string }) {
         <div className="flex md:flex-row flex-col-reverse gap-3 md:gap-3 text-slate-500 hover:text-slate-300 text-base md:text-sm transition-all">
           <section className="md:w-1/3 w-2/3">
             <Image
-              src="/img/projects/Project-M-One.jpg"
-              alt="Ustami Razib Profile"
+              src="/img/projects/Project-M-one.jpg"
+              alt="M-One Travella"
               className=" rounded-md w-full h-full object-contain"
               width={200}
               height={48}
