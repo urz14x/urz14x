@@ -1,9 +1,8 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import { IBM_Plex_Sans_KR, IBM_Plex_Sans } from "next/font/google";
 import SectionContainer from "@/components/Section/SectionContainer";
-import { useRouter, useSelectedLayoutSegment } from "next/navigation";
+
 import Experience from "@/components/Experience/Experience";
 import Project from "@/components/Project/Project";
 import Footer from "@/components/Footer/Footer";
@@ -19,11 +18,6 @@ const IBM_plex_sans = IBM_Plex_Sans({
 });
 
 export default function Home() {
-  const segement = useSelectedLayoutSegment();
-  useEffect(() => {
-    console.log(segement);
-  }, [segement]);
-
   return (
     <>
       <div className={IBM_plex_sans.className}>
