@@ -21,25 +21,11 @@ export default function Home() {
   return (
     <>
       <div className={IBM_plex_sans.className}>
-        <div className="min-h-screen mx-auto max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
+        <div className="min-h-screen mx-auto max-w-screen-2xl px-6 py-12 md:px-12 md:py-20 lg:px-24 lg:py-0">
           <div className="lg:flex lg:flex-row flex-col lg:gap-4 text-clrs-primary-50">
             <header className="lg:w-1/2 lg:sticky lg:top-0 lg:max-h-screen lg:flex lg:flex-col">
               <div className=" lg:px-20 flex flex-col justify-between h-full py-8">
-                <div className="flex flex-col space-y-5">
-                  <div className="relative">
-                    <div className="relative -z-10 inset-0">
-                      <div className="w-44 h-44 bg-blue-700 blur-3xl rounded-full absolute inset-0 lg:block hidden"></div>
-                    </div>
-                    <Image
-                      src="/img/Ustami.svg"
-                      alt="Ustami Razib Profile"
-                      className="lg:block hidden"
-                      width={180}
-                      height={180}
-                      priority
-                    />
-                  </div>
-
+                <div className="flex flex-col mt-0 sm:mt-16 space-y-5">
                   <div>
                     <h1
                       className={
@@ -47,7 +33,7 @@ export default function Home() {
                         "capitalize text-4xl font-bold")
                       }
                     >
-                      Ustami Razib
+                      Ustami Rajib
                     </h1>
                     <h3
                       className={
@@ -164,20 +150,13 @@ export default function Home() {
                   </h1>
                 </div>
                 <p className="mb-4">
-                  Hello there! I&lsquo;m Ustami Rajib 👋, a passionate Frontend
-                  Developer enthusiast, eager to create captivating and
-                  user-friendly web experiences. With a blend of creativity,
-                  technical skills, and a keen eye for detail, I strive to craft
-                  digital solutions that leave a lasting impression.
-                </p>
-                <p>
-                  As a student pursuing my degree in Informatics Engineering, I
-                  have dedicated myself to mastering the art of Frontend
-                  Development. My journey began with a fascination for blending
-                  design and technology to bring ideas to life. Through hands-on
-                  projects and coursework, I&lsquo;ve honed my skills in HTML,
-                  CSS, and JavaScript, continually exploring the latest
-                  frameworks and technologies.
+                  Hello I&apos;m Ustami Rajib. A Frontend Developer graduated
+                  from Telkom University. Experienced in building interactive
+                  and responsive web interfaces, I blend creativity and
+                  technical ability to create effective and memorable digital
+                  solutions. My expertise includes HTML, CSS, JavaScript, as
+                  well as continuous exploration of modern technologies and
+                  frameworks.
                 </p>
               </SectionContainer>
               <SectionContainer
@@ -210,7 +189,7 @@ export default function Home() {
                 <div>
                   <a
                     className="flex items-center gap-1"
-                    href="/resume.pdf"
+                    href="/resume-ustami-rajib.pdf"
                     download
                   >
                     <span> View My Resume</span>
@@ -222,9 +201,9 @@ export default function Home() {
                         viewBox="0 0 24 24"
                         fill="none"
                         stroke="currentColor"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                         className="feather feather-arrow-up-right"
                       >
                         <line x1="7" y1="17" x2="17" y2="7"></line>

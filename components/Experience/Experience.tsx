@@ -18,7 +18,7 @@ export default function Experience({
           <li className="mb-12 flex rounded-md items-start flex-col md:flex-row max-w-full transition-all text-slate-500 hover:text-slate-300">
             <section className="w-full md:w-1/4">
               <header className="z-10 mb-2 mt-1 text-sm font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">
-                {year}
+                <time>{year}</time>
               </header>
             </section>
             <section className="w-full md:w-3/4 flex flex-col space-y-3">
